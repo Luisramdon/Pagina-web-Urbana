@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Descubre ropa urbana, prendas oversized y streetwear en DISTRICT."
+  >
+
+  <title>DISTRICT | Urban Streetwear</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio">DISTRICT<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#categorias">Colección</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+      </ul>
+
+      <a class="nav-cart" href="#productos">Mi colección ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content container">
+        <p class="eyebrow">STREETWEAR / NEW SEASON</p>
+
+        <h1>DEFINE TU<br>PROPIO ESTILO.</h1>
+
+        <p class="hero-description">
+          Streetwear para quienes no siguen las reglas.
+          Diseñado para destacar sin decir demasiado.
+        </p>
+
+        <a href="#productos" class="button button-primary">
+          EXPLORAR COLECCIÓN ↗
+        </a>
+      </div>
+    </section>
+
+    <section class="categories section container" id="categorias">
+      <div class="section-heading">
+        <p class="eyebrow">ENCUENTRA TU ESTILO</p>
+        <h2>Explora las categorías</h2>
+      </div>
+
+      <div class="category-grid">
+        <a href="#productos" class="category-card">
+          <img src="assets/img/category-tshirts.jpeg"
+               alt="Colección de camisetas urbanas">
+          <span>OVERSIZED TEES ↗</span>
+        </a>
+
+        <a href="#productos" class="category-card">
+          <img src="assets/img/category-hoodies.jpeg"
+               alt="Colección de sudaderas streetwear">
+          <span>HOODIES ↗</span>
+        </a>
+
+        <a href="#productos" class="category-card">
+          <img src="assets/img/hero-streetwear.jpg"
+               alt="Pantalones cargo urbanos">
+          <span>CARGO PANTS ↗</span>
+        </a>
+
+        <a href="#productos" class="category-card">
+          <img src="assets/img/category-jackets.jpeg"
+               alt="Chaquetas de estilo urbano">
+          <span>JACKETS ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="products section container" id="productos">
+      <div class="section-heading">
+        <p class="eyebrow">SELECCIÓN DISTRICT</p>
+        <h2>Prendas destacadas</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/img/product-tee.jpeg"
+               alt="Camiseta oversized negra">
+          <p class="product-category">ESSENTIALS</p>
+          <h3>Oversized Essential Tee</h3>
+          <p class="product-price">S/ 79.90</p>
+          <a class="product-link" href="#contacto">Ver producto ↗</a>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/product-hoodie.jpeg"
+               alt="Sudadera urbana de corte amplio">
+          <p class="product-category">BEST SELLER</p>
+          <h3>Urban Heavyweight Hoodie</h3>
+          <p class="product-price">S/ 159.90</p>
+          <a class="product-link" href="#contacto">Ver producto ↗</a>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/product-cargo.jpeg"
+               alt="Pantalón cargo de estilo urbano">
+          <p class="product-category">UTILITY</p>
+          <h3>Cargo Utility Pants</h3>
+          <p class="product-price">S/ 139.90</p>
+          <a class="product-link" href="#contacto">Ver producto ↗</a>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/product-jacket.jpeg"
+               alt="Chaqueta bomber urbana">
+          <p class="product-category">NEW ARRIVAL</p>
+          <h3>Street Bomber Jacket</h3>
+          <p class="product-price">S/ 219.90</p>
+          <a class="product-link" href="#contacto">Ver producto ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="brand-banner">
+      <div class="brand-banner-content container">
+        <p class="eyebrow">NO RULES. JUST IDENTITY.</p>
+        <h2>NO SIGAS TENDENCIAS.<br>CREA TU MOVIMIENTO.</h2>
+        <a href="#categorias" class="button button-outline">
+          DESCUBRIR LA COLECCIÓN ↗
+        </a>
+      </div>
+    </section>
+
+    <section class="about section container" id="nosotros">
+      <p class="eyebrow">MÁS QUE ROPA</p>
+      <h2>La calle es nuestra inspiración.</h2>
+      <p>
+        DISTRICT nace de la cultura urbana, la música y la expresión
+        individual. Creamos prendas para quienes convierten su estilo
+        en una declaración de identidad.
+      </p>
+    </section>
+
+    <section class="newsletter section container" id="contacto">
+      <p class="eyebrow">ACCESS GRANTED</p>
+      <h2>ÚNETE AL MOVIMIENTO.</h2>
+      <p>Descubre nuevos lanzamientos y colecciones exclusivas.</p>
+
+      <form class="newsletter-form">
+        <label class="visually-hidden" for="email">
+          Correo electrónico
+        </label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Tu correo electrónico"
+          autocomplete="email"
+          required
+        >
+
+        <button type="submit">SUSCRIBIRME ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#inicio">DISTRICT<span>.</span></a>
+      <p>Streetwear with identity.</p>
+      <p>© 2026 DISTRICT. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
